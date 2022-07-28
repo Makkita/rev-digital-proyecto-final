@@ -1,5 +1,5 @@
 body{
-    background-image: url("../img/imagen-copia.jpg");
+    background-image: url("../img/imagen.jpg");
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0;
@@ -51,5 +51,7 @@ a{
 
 p{
     margin-left: 5%;
-    color: #FF00CC;
+    color: black;
+    font-family: tahoma;
+    
 }
