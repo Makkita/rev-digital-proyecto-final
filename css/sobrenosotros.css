@@ -1,0 +1,169 @@
+body{
+    font-family:tahoma;
+    margin:0; 
+   background: url(kawaii.png);
+   
+ }
+ 
+ a{
+     text-decoration:none;
+     color: #C2185B;
+ }
+ 
+ header{
+     display:flex;
+     justify-content: space-between;
+     min-height:70px;
+     padding:10px;
+     background-color: #BA68C8;
+     align-items:center;
+ }
+ 
+ .logo{
+     display:flex;
+     align-items:center;
+ }
+ 
+ .logo img{
+       height:80px;
+       margin-right:10px;
+ }
+ 
+ nav a{
+     font-weight: 800;
+     padding-right: 10px;
+ }
+ 
+ nav a:hover{
+     color: white;
+ }
+ 
+ @media (max-width:700px){
+     header{
+         flex-direction:column; 
+     }
+ }
+ 
+ nav{
+     padding: 10px 0px;
+ }
+
+ .GranContenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    background-color: #F48FB1;
+    
+    gap: .4rem .6rem;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+    
+
+ .GranContenedor .contenedor-1{
+    background-color:#00CCCC ;
+    
+    grid-column: 1fr; 
+    padding: 1em;
+    border-radius: 3px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    padding-left: 5px;
+    font-family: tahoma;
+    
+
+
+}
+
+a .contenedor-1 {
+    font-size: 30%;
+    text-align: center;
+    color: black;
+}
+
+button{
+        color: #2fb4cc;
+        border: 1px solid #2fb4cc ;
+        border-radius: 4px;
+        transition: all 400ms ease;
+        display:inline-flex;
+        align-items:center;
+        justify-content: center;
+        
+        
+        font-family: tahoma;
+        cursor: pointer;
+     }
+    
+     button:hover{
+        background:#82E0AA  ;
+    }
+
+
+.GranContenedor .contenedor-2{
+    background-color: #00CCCC;
+    grid-column: 1fr; 
+    padding: 1em;
+    border-radius: 3px;
+    grid-column: 2/4;
+    grid-row: 1/4;
+    
+
+}
+
+table{
+    font-family: tahoma;
+    color:black;
+    font-size: medium;
+    text-align: center;
+    border-color: black;
+}
+
+td img{
+    width: auto;
+    height: auto;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+footer{
+    
+
+    clear:both;
+    width:100%;
+    height:80px;
+    background-color: #BA68C8;
+    font-family: tahoma;
+}
+
+.contenedorPie{
+    width:50%;
+    background-color:#D81B60;
+    height:40px;
+    margin:4px;
+    float:right;
+    margin-right:25%;
+    border-radius:10px;
+    margin-top:1.8%;
+}
+
+footer strong{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+
+
+
+

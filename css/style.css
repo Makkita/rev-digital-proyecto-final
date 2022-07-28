@@ -1,0 +1,184 @@
+body{
+    font-family:tahoma;
+    margin:0; 
+   background: url(img/imagen.jpg);
+   
+ }
+ 
+ a{
+     text-decoration:none;
+     color: #C2185B;
+ }
+ 
+ header{
+     display:flex;
+     justify-content: space-between;
+     min-height:70px;
+     padding:10px;
+     background-color: #BA68C8;
+     align-items:center;
+ }
+ 
+ .logo{
+     display:flex;
+     align-items:center;
+ }
+ 
+ .logo img{
+       height:80px;
+       margin-right:10px;
+ }
+ 
+ nav a{
+     font-weight: 800;
+     padding-right: 10px;
+ }
+ 
+ nav a:hover{
+     color: white;
+ }
+ 
+ @media (max-width:700px){
+     header{
+         flex-direction:column; 
+     }
+ }
+ 
+ nav{
+     padding: 10px 0px;
+ }
+ 
+ 
+ section{
+     width:70%;
+     background-color:#FFCDD2;
+     margin:4%;
+     height:400px;
+     float:left;
+     border-radius:10px;
+     font-family: tahoma;
+     color:#C2185B;
+ }
+ 
+ .contenedor-section{
+     width:30%;
+     height:42,2%;
+     background-color:#FFCDD2 ;
+     text-align:center;
+     float:left;
+     margin:2px;
+ 
+ }
+ 
+ 
+ aside{
+     background-color: #DCE775;
+     width:22%;
+     height: 400px;
+     float:right;
+     margin-top:4%;
+     border-radius:10px;
+     font-family: tahoma;
+     color: #196F3D;
+     
+ }
+ 
+ aside a{
+     font-family: tahoma;
+     color:#2fb4cc;  ;
+     font-size: 24px;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ 
+ aside button{
+     margin-left: 20%;
+     margin-top: 10%;
+ }
+ 
+ aside img{
+     width: 100%;
+     height: 70%;
+     
+ }
+ 
+ .contenedorAside{
+     background-color:#FFF59D ;
+     width:90%;
+     height:170px;
+     margin:4%;
+ }
+ 
+ footer{
+     
+ 
+     clear:both;
+     width:100%;
+     height:80px;
+     background-color: #BA68C8;
+     font-family: tahoma;
+ }
+ 
+ .contenedorPie{
+     width:50%;
+     background-color:#D81B60;
+     height:40px;
+     margin:4px;
+     float:right;
+     margin-right:25%;
+     border-radius:10px;
+ 
+ }
+ 
+ .gif{
+     display:flex;
+     align-items:right;
+ }
+ 
+ .gif img{
+       height:120px;
+        width:100%;
+       
+ }
+ 
+ .ofertas{
+     display:flex;
+     align-items:center;
+ }
+ 
+ .ofertas img{
+    border-radius: 5px;
+    
+ }
+ 
+ button{
+     display:inline-flex;
+     align-items:center;
+     justify-content: center;
+     color: #2fb4cc;
+     border: 1px solid #2fb4cc ;
+     font-family: tahoma;
+     cursor: pointer;
+     transition: .3s easy all;
+     border-radius: 5px;
+ }
+ 
+ button:hover{
+     background: #82E0AA;
+ }
+ 
+ 
+ 
+ footer strong{
+     display: flex;
+     justify-content: center;
+     margin-top: 7px;
+ }
+ 
+ 
+ 
+ 
+        
+       
+ 
