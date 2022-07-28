@@ -48,3 +48,8 @@ a{
         width: 100%;
     }
 }
+
+p{
+    margin-left: 5%;
+    color: #FF00CC;
+}
